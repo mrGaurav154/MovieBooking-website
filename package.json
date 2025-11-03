@@ -1,0 +1,21 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "ScreenPass Booking App - Node.js + MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.3",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "keywords": [],
+  "author": ""
+}
