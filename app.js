@@ -14,10 +14,11 @@ app.use(express.static('public'));
 
 // ✅ MySQL Connection
 const db = mysql.createConnection({
-  host: process.env.MYSQL_HOST || 'localhost',
-  user: process.env.MYSQL_USER || 'root',
-  password: process.env.MYSQL_PASSWORD || 'zxcv1234',
-  database: process.env.MYSQL_DATABASE || 'screenpass'
+  host: process.env.MYSQL_HOST || 'sql8.freesqldatabase.com',
+  user: process.env.MYSQL_USER || 'sql8805840',
+  password: process.env.MYSQL_PASSWORD || 'D7mGNkFQuG',
+  database: process.env.MYSQL_DATABASE || 'sql8805840',
+  port : '3306'
 });
 
 // ✅ Setup Tables if not exist
